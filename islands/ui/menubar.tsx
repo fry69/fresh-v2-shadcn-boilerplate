@@ -1,4 +1,4 @@
-import * as React from "preact/compat"
+import React from "preact/compat"
 import * as MenubarPrimitive from "@radix-ui/react-menubar"
 import { Check, ChevronRight, Circle } from "lucide-preact"
 

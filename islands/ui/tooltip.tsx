@@ -1,4 +1,4 @@
-import * as React from "preact/compat"
+import React from "preact/compat"
 import * as TooltipPrimitive from "@radix-ui/react-tooltip"
 
 import { cn } from "@/lib/utils.ts"

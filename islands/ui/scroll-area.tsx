@@ -1,4 +1,4 @@
-import * as React from "preact/compat"
+import React from "preact/compat"
 import * as ScrollAreaPrimitive from "@radix-ui/react-scroll-area"
 
 import { cn } from "@/lib/utils.ts"

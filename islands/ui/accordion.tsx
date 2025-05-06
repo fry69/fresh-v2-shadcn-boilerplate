@@ -1,4 +1,4 @@
-import * as React from "preact/compat"
+import React from "preact/compat"
 import * as AccordionPrimitive from "@radix-ui/react-accordion"
 import { ChevronDown } from "lucide-preact"
 

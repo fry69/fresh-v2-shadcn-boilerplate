@@ -1,4 +1,4 @@
-import * as React from "preact/compat"
+import React from "preact/compat"
 import * as HoverCardPrimitive from "@radix-ui/react-hover-card"
 
 import { cn } from "@/lib/utils.ts"

@@ -1,4 +1,4 @@
-import * as React from "preact/compat"
+import React from "preact/compat"
 import { ChevronLeft, ChevronRight, MoreHorizontal } from "lucide-preact"
 
 import { cn } from "@/lib/utils.ts"
