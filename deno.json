@@ -22,11 +22,12 @@
     "class-variance-authority": "npm:class-variance-authority@^0.7.1",
     "clsx": "npm:clsx@^2.1.1",
     "cmdk": "https://esm.sh/cmdk@1.1.1?alias=react:preact/compat&external=preact,@radix-ui/react-dialog&target=es2022",
-    "fresh": "jsr:@fresh/core@^2.0.0-alpha.34",
-    "@fresh/plugin-tailwind": "jsr:@fresh/plugin-tailwind@^0.0.1-alpha.7",
+    "fresh": "jsr:@fresh/core@^2.0.0-alpha.58",
+    "@fresh/plugin-tailwind": "jsr:@fresh/plugin-tailwind@^0.0.1-alpha.9",
     "lucide-preact": "npm:lucide-preact@^0.511.0",
-    "preact": "npm:preact@^10.26.6",
-    "@preact/signals": "npm:@preact/signals@^2.0.4",
+    "postcss": "npm:postcss@^8.5.6",
+    "preact": "npm:preact@^10.27.0",
+    "@preact/signals": "npm:@preact/signals@^2.2.1",
     "@radix-ui/react-accordion": "https://esm.sh/@radix-ui/react-accordion@1.2.10?alias=react:preact/compat&external=preact,@radix-ui/react-collapsible,@radix-ui/react-context,@radix-ui/react-primitive&target=es2022",
     "@radix-ui/react-alert-dialog": "https://esm.sh/@radix-ui/react-alert-dialog@1.1.13?alias=react:preact/compat&external=preact,@radix-ui/react-context,@radix-ui/react-dialog&target=es2022",
     "@radix-ui/react-arrow": "https://esm.sh/@radix-ui/react-arrow@1.1.6?alias=react:preact/compat&external=preact,@radix-ui/react-primitive&target=es2022",
@@ -64,9 +65,9 @@
     "@radix-ui/react-toggle-group": "https://esm.sh/@radix-ui/react-toggle-group@1.1.9?alias=react:preact/compat&external=preact,@radix-ui/react-context,@radix-ui/react-primitive,@radix-ui/react-roving-focus,@radix-ui/react-toggle&target=es2022",
     "@radix-ui/react-tooltip": "https://esm.sh/@radix-ui/react-tooltip@1.2.6?alias=react:preact/compat&external=preact,@radix-ui/react-context,@radix-ui/react-dismissable-layer,@radix-ui/react-popper,@radix-ui/react-portal,@radix-ui/react-primitive&target=es2022",
     "@radix-ui/react-visually-hidden": "https://esm.sh/@radix-ui/react-visually-hidden@1.2.2?alias=react:preact/compat&external=preact,@radix-ui/react-primitive&target=es2022",
-    "tailwind-merge": "npm:tailwind-merge@^3.0.2",
-    "tailwindcss": "npm:tailwindcss@^3.4.3",
-    "tailwindcss-animate": "npm:tailwindcss-animate@^1.0.7"
+    "tailwind-merge": "npm:tailwind-merge@^3.3.1",
+    "tailwindcss": "npm:tailwindcss@^4.1.10",
+    "tw-animate-css": "npm:tw-animate-css@^1.3.7"
   },
   "compilerOptions": {
     "lib": [
