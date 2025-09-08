@@ -2,9 +2,7 @@
 
 # fresh v2 shadcn boilerplate
 
-A simple boilerplate for Fresh v2 that ships with an aliased, up-to-date version of [shadcn](https://github.com/shadcn-ui/ui).
-
-We take advantage of [esm.sh](https://esm.sh/) to alias React dependencies to [preact/compat](https://www.npmjs.com/package/@preact/compat), and mark `preact` as an external dependency to ensure the best compatibility with current `preact` version Fresh is using.
+A simple boilerplate for Fresh v2 that ships with an up-to-date version of the [shadcn](https://github.com/shadcn-ui/ui) component library.
 
 ## Documentation
 
