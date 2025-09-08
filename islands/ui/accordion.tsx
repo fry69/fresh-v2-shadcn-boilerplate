@@ -1,5 +1,5 @@
 import React from "preact/compat"
-import * as AccordionPrimitive from "@radix-ui/react-accordion"
+import { Accordion as AccordionPrimitive } from "radix-ui"
 import { ChevronDownIcon } from "lucide-preact"
 
 import { cn } from "@/lib/utils.ts"

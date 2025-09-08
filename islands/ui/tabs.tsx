@@ -1,5 +1,5 @@
 import React from "preact/compat"
-import * as TabsPrimitive from "@radix-ui/react-tabs"
+import { Tabs as TabsPrimitive } from "radix-ui"
 
 import { cn } from "@/lib/utils.ts"
 

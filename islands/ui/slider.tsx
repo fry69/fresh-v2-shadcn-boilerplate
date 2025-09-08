@@ -1,5 +1,5 @@
 import React from "preact/compat"
-import * as SliderPrimitive from "@radix-ui/react-slider"
+import { Slider as SliderPrimitive } from "radix-ui"
 
 import { cn } from "@/lib/utils.ts"
 

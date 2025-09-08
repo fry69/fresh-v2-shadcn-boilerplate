@@ -1,9 +1,10 @@
 import React from "preact/compat"
-import { Slot } from "@radix-ui/react-slot"
-import { VariantProps, cva } from "class-variance-authority"
+import { Slot } from "radix-ui"
+import { cva, VariantProps } from "class-variance-authority"
 import { PanelLeftIcon } from "lucide-preact"
 
 import { useIsMobile } from "@/components/hooks/use-mobile.ts"
+import { cn } from "@/lib/utils.ts"
 import { Button } from "@/components/ui/button.tsx"
 import { Input } from "@/components/ui/input.tsx"
 import { Separator } from "@/islands/ui/separator.tsx"
@@ -21,8 +22,6 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/islands/ui/tooltip.tsx"
-
-import { cn } from "@/lib/utils.ts"
 
 const SIDEBAR_COOKIE_NAME = "sidebar_state"
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7
@@ -134,7 +133,7 @@ function SidebarProvider({
             {
               "--sidebar-width": SIDEBAR_WIDTH,
               "--sidebar-width-icon": SIDEBAR_WIDTH_ICON,
-              ...style,
+              ...style as React.CSSProperties,
             } as React.CSSProperties
           }
           className={cn(
@@ -397,7 +396,7 @@ function SidebarGroupLabel({
   asChild = false,
   ...props
 }: React.ComponentProps<"div"> & { asChild?: boolean }) {
-  const Comp = asChild ? Slot : "div"
+  const Comp = asChild ? Slot.Slot : "div"
 
   return (
     <Comp
@@ -418,7 +417,7 @@ function SidebarGroupAction({
   asChild = false,
   ...props
 }: React.ComponentProps<"button"> & { asChild?: boolean }) {
-  const Comp = asChild ? Slot : "button"
+  const Comp = asChild ? Slot.Slot : "button"
 
   return (
     <Comp
@@ -507,7 +506,7 @@ function SidebarMenuButton({
   isActive?: boolean
   tooltip?: string | React.ComponentProps<typeof TooltipContent>
 } & VariantProps<typeof sidebarMenuButtonVariants>) {
-  const Comp = asChild ? Slot : "button"
+  const Comp = asChild ? Slot.Slot : "button"
   const { isMobile, state } = useSidebar()
 
   const button = (
@@ -553,7 +552,7 @@ function SidebarMenuAction({
   asChild?: boolean
   showOnHover?: boolean
 }) {
-  const Comp = asChild ? Slot : "button"
+  const Comp = asChild ? Slot.Slot : "button"
 
   return (
     <Comp
@@ -676,7 +675,7 @@ function SidebarMenuSubButton({
   size?: "sm" | "md"
   isActive?: boolean
 }) {
-  const Comp = asChild ? Slot : "a"
+  const Comp = asChild ? Slot.Slot : "a"
 
   return (
     <Comp

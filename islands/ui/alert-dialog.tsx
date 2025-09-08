@@ -1,5 +1,5 @@
 import React from "preact/compat"
-import * as AlertDialogPrimitive from "@radix-ui/react-alert-dialog"
+import { AlertDialog as AlertDialogPrimitive } from "radix-ui"
 
 import { cn } from "@/lib/utils.ts"
 import { buttonVariants } from "@/components/ui/button.tsx"

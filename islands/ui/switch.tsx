@@ -1,5 +1,5 @@
 import React from "preact/compat"
-import * as SwitchPrimitive from "@radix-ui/react-switch"
+import { Switch as SwitchPrimitive } from "radix-ui"
 
 import { cn } from "@/lib/utils.ts"
 

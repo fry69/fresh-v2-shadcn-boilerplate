@@ -1,5 +1,5 @@
 import React from "preact/compat"
-import * as SeparatorPrimitive from "@radix-ui/react-separator"
+import { Separator as SeparatorPrimitive } from "radix-ui"
 
 import { cn } from "@/lib/utils.ts"
 

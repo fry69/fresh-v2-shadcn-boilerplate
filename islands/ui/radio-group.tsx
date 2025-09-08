@@ -1,5 +1,5 @@
 import React from "preact/compat"
-import * as RadioGroupPrimitive from "@radix-ui/react-radio-group"
+import { RadioGroup as RadioGroupPrimitive } from "radix-ui"
 import { CircleIcon } from "lucide-preact"
 
 import { cn } from "@/lib/utils.ts"

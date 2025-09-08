@@ -1,5 +1,5 @@
 import React from "preact/compat"
-import * as HoverCardPrimitive from "@radix-ui/react-hover-card"
+import { HoverCard as HoverCardPrimitive } from "radix-ui"
 
 import { cn } from "@/lib/utils.ts"
 

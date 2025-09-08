@@ -1,5 +1,5 @@
 import React from "preact/compat"
-import * as SheetPrimitive from "@radix-ui/react-dialog"
+import { Dialog as SheetPrimitive } from "radix-ui"
 import { XIcon } from "lucide-preact"
 
 import { cn } from "@/lib/utils.ts"
