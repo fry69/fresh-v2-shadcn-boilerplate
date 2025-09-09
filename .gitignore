@@ -12,4 +12,4 @@ node_modules/
 vendor/
 
 # deno runtime lock
-deno.lock
+# deno.lock
